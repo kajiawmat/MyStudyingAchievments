@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>StyleSheet/Style.qss</file>
+        <file>Images/close_2.png</file>
+        <file>Images/close_2_hover.png</file>
+        <file>Images/close_2_pressed.png</file>
+        <file>Help/AddSchoolBoy.html</file>
+        <file>Help/AddSubject.html</file>
+        <file>Help/ChangeJournal.html</file>
+        <file>Help/ChangeTimePeriod.html</file>
+        <file>Help/CreateJournal.html</file>
+        <file>Help/DelSchoolBoy.html</file>
+        <file>Help/DelSubject.html</file>
+        <file>Help/HotKeys.html</file>
+        <file>Help/index.html</file>
+        <file>Help/LoadJournal.html</file>
+        <file>Help/SaveJournal.html</file>
+        <file>Help/TableValue.html</file>
+        <file>Help/ViewSchoolBoy.html</file>
+        <file>Images/EkranZagruzki.png</file>
+    </qresource>
+</RCC>
