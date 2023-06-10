@@ -1,0 +1,12 @@
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_6\OOP_6\obj\Debug\OOP_6.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_6\OOP_6\bin\Debug\OOP_6.exe.config
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_6\OOP_6\bin\Debug\OOP_6.exe
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_6\OOP_6\bin\Debug\OOP_6.pdb
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_6\OOP_6\obj\Debug\OOP_6.exe
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_6\OOP_6\obj\Debug\OOP_6.pdb
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Лабораторные работы\ООП\OOP_6\OOP_6\bin\Debug\OOP_6.exe.config
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Лабораторные работы\ООП\OOP_6\OOP_6\bin\Debug\OOP_6.exe
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Лабораторные работы\ООП\OOP_6\OOP_6\bin\Debug\OOP_6.pdb
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Лабораторные работы\ООП\OOP_6\OOP_6\obj\Debug\OOP_6.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Лабораторные работы\ООП\OOP_6\OOP_6\obj\Debug\OOP_6.exe
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Лабораторные работы\ООП\OOP_6\OOP_6\obj\Debug\OOP_6.pdb

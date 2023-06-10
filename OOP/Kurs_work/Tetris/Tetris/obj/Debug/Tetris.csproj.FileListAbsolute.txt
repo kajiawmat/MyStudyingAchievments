@@ -1,0 +1,12 @@
+C:\Users\Alex\Documents\SharpDevelop Projects\Tetris\Tetris\obj\Debug\Tetris.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\SharpDevelop Projects\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\Alex\Documents\SharpDevelop Projects\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\Alex\Documents\SharpDevelop Projects\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\Alex\Documents\SharpDevelop Projects\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Users\Alex\Documents\SharpDevelop Projects\Tetris\Tetris\obj\Debug\Tetris.pdb
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Курсовые проекты\ООП\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Курсовые проекты\ООП\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Курсовые проекты\ООП\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Курсовые проекты\ООП\Tetris\Tetris\obj\Debug\Tetris.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Курсовые проекты\ООП\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Users\Alex\Desktop\2 Курс ИВТ СибГУТИ\Курсовые проекты\ООП\Tetris\Tetris\obj\Debug\Tetris.pdb

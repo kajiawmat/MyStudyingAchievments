@@ -1,0 +1,6 @@
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_7\OOP_7\bin\Debug\OOP_7.exe.config
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_7\OOP_7\bin\Debug\OOP_7.exe
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_7\OOP_7\bin\Debug\OOP_7.pdb
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_7\OOP_7\obj\Debug\OOP_7.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_7\OOP_7\obj\Debug\OOP_7.exe
+C:\Users\Alex\Documents\SharpDevelop Projects\OOP_7\OOP_7\obj\Debug\OOP_7.pdb

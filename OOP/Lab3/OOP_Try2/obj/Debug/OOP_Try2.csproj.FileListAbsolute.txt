@@ -1,0 +1,18 @@
+C:\Users\aleks\Documents\SharpDevelop Projects\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.csprojResolveAssemblyReference.cache
+C:\Users\aleks\Documents\SharpDevelop Projects\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.exe.config
+C:\Users\aleks\Documents\SharpDevelop Projects\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.exe
+C:\Users\aleks\Documents\SharpDevelop Projects\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.pdb
+C:\Users\aleks\Documents\SharpDevelop Projects\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.exe
+C:\Users\aleks\Documents\SharpDevelop Projects\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.pdb
+C:\Users\Alex\OneDrive\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.exe.config
+C:\Users\Alex\OneDrive\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.exe
+C:\Users\Alex\OneDrive\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.pdb
+C:\Users\Alex\OneDrive\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.csprojResolveAssemblyReference.cache
+C:\Users\Alex\OneDrive\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.exe
+C:\Users\Alex\OneDrive\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.pdb
+C:\Users\Alex\Desktop\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.exe.config
+C:\Users\Alex\Desktop\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.exe
+C:\Users\Alex\Desktop\OOP_Try2\OOP_Try2\bin\Debug\OOP_Try2.pdb
+C:\Users\Alex\Desktop\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.exe
+C:\Users\Alex\Desktop\OOP_Try2\OOP_Try2\obj\Debug\OOP_Try2.pdb
