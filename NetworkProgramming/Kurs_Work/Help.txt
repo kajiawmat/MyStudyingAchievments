@@ -1,0 +1,24 @@
+List of commands received by the FTP-server:
+	ABOR - Abort the file transfer
+	CDUP - Change the directory to a higher one
+	CWD  - Change directory (CWD <dirpath>)
+	DELE - Delete a file (DELE <filename>)
+	HELP - Displays a list of commands received by the FTP-server
+	LIST - Returns list of directory file
+	MDTM - Returns the file modification time (MDTM <filename>)
+	MKD  - Create a directory (MKD <dirname>)
+	NLST - Returns a list of directory files in a shorter format than LIST
+	NOOP - Empty operation
+	PASS - Input Password (PASS <password>)
+	PORT - Enter Active mode (PORT <N1>,<N2>,<N3>,<N4>,<N5>,<N6>)
+	PWD  - Returns the current directory path
+	QUIT - Quit from FTP-server
+	RETR - Retrieve the file (RETR <filename>)
+	RMD  - Delete a empty directory (RMD <dirname>)
+	RNFR with RNTO - Rename the file (RNFR <filename old> RNTO <filename new>)
+	SIZE - Returns the file size
+	STOR - Upload the file. (STOR <filename>)
+	SYST - Returns the system type: UNIX, WIN...
+	TYPE - Set the file transfer type (TYPE A (ASCII) or TYPE I (binary))
+	USER - Input Username to log in to the server (USER <username>)
+
