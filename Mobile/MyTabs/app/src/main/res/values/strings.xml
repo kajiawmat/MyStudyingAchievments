@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTabs</string>
+    <string name="tab_text_1">Picture</string>
+    <string name="tab_text_2">List</string>
+    <string name="tab_text_3">Table</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
