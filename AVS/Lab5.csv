@@ -1,0 +1,4 @@
+FuncName;ElenentType;Optimization;Size;NumThreads;Timer;TimeFunc;
+DGEMM;double;1;1000;4;clock();12.300000000;
+DGEMM;double;1;1000;4;clock();11.965000000;
+DGEMM;double;0;1000;4;clock();11.038000000;

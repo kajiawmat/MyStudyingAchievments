@@ -1,0 +1,23 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(65,34): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(73,37): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(81,55): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(81,70): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(150,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(207): message : выполняется компиляция ссылки на экземпляр шаблон функции "void OpPerform<int>(std::ofstream &,Type)"
+          with
+          [
+              Type=int
+          ]
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(136,9): warning C4101: value: неиспользованная локальная переменная
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(92): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(87): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(92): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(92): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(87): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(87): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(92): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(92): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(87): warning C4724: возможный остаток от деления на 0
+C:\Users\Alex\Desktop\AVS\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(87): warning C4724: возможный остаток от деления на 0
+  ConsoleApplication1.vcxproj -> C:\Users\Alex\Desktop\AVS\ConsoleApplication1\Debug\ConsoleApplication1.exe
