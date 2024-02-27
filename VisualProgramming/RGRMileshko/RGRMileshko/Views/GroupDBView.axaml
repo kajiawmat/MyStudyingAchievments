@@ -1,0 +1,91 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="RGRMileshko.Views.GroupDBView"
+		Icon="/Assets/avalonia-logo.ico"
+        Title="GROUP">
+  <Window.Styles>
+    <Style Selector="Button.b1">
+      <Setter Property="VerticalAlignment" Value="Stretch"/>
+      <Setter Property="VerticalContentAlignment" Value="Center"/>
+      <Setter Property="HorizontalAlignment" Value="Stretch"/>
+      <Setter Property="HorizontalContentAlignment" Value="Center"/>
+      <Setter Property="Background" Value="White"/>
+      <Setter Property="BorderThickness" Value="0,0,0,1"/>
+      <Setter Property="BorderBrush" Value="Gray"/>
+      <Setter Property="CornerRadius" Value="0"/>
+    </Style>
+    <Style Selector="Button.b2">
+      <Setter Property="VerticalAlignment" Value="Stretch"/>
+      <Setter Property="VerticalContentAlignment" Value="Center"/>
+      <Setter Property="HorizontalAlignment" Value="Stretch"/>
+      <Setter Property="HorizontalContentAlignment" Value="Center"/>
+      <Setter Property="Background" Value="LightGray"/>
+      <Setter Property="BorderThickness" Value="1"/>
+      <Setter Property="BorderBrush" Value="Gray"/>
+      <Setter Property="CornerRadius" Value="0"/>
+    </Style>
+    <Style Selector="RadioButton.rb1">
+      <Setter Property="VerticalAlignment" Value="Stretch"/>
+      <Setter Property="VerticalContentAlignment" Value="Center"/>
+      <Setter Property="HorizontalAlignment" Value="Stretch"/>
+      <Setter Property="HorizontalContentAlignment" Value="Center"/>
+      <Setter Property="Background" Value="White"/>
+      <Setter Property="BorderThickness" Value="0,0,0,1"/>
+      <Setter Property="BorderBrush" Value="Gray"/>
+      <Setter Property="CornerRadius" Value="0"/>
+    </Style>
+    <Style Selector="Border.br1">
+      <Setter Property="HorizontalAlignment" Value="Stretch"/>
+      <Setter Property="VerticalAlignment" Value="Stretch"/>
+      <Setter Property="BorderThickness" Value="1"/>
+      <Setter Property="BorderBrush" Value="Gray"/>
+    </Style>
+  </Window.Styles>
+  <Grid RowDefinitions="*,6*,*,6*,*,*">
+    <Border Classes="br1" Grid.Row="0" Background="LightGray">
+      <TextBlock Text="Table to group"
+					 HorizontalAlignment="Center"
+					 VerticalAlignment="Center"/>
+    </Border>
+    <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+      <StackPanel>
+        <ItemsControl Items="{Binding MainContext.Tabs}">
+          <ItemsControl.ItemTemplate>
+            <DataTemplate>
+              <Border Classes="br1">
+                <RadioButton Classes="rb1" GroupName="First Table" Content="{Binding Header}"
+									Command="{Binding $parent[ItemsControl].DataContext.ButtonChangeTable}"
+									CommandParameter="{Binding}"/>
+              </Border>
+            </DataTemplate>
+          </ItemsControl.ItemTemplate>
+        </ItemsControl>
+      </StackPanel>
+    </ScrollViewer>
+    <Border Classes="br1" Grid.Row="2" Background="LightGray">
+      <TextBlock Text="GROUP BY"
+					 HorizontalAlignment="Center"
+					 VerticalAlignment="Center"/>
+    </Border>
+    <ScrollViewer Grid.Row="3" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+      <StackPanel>
+        <ItemsControl Items="{Binding SelectedTab.DataColumns}">
+          <ItemsControl.ItemTemplate>
+            <DataTemplate>
+              <Border Classes="br1">
+                <RadioButton Classes="rb1" GroupName="Second Table" Content="{Binding}"
+									Command="{Binding $parent[ItemsControl].DataContext.ButtonChangeGROUPBY}"
+									CommandParameter="{Binding}"/>
+              </Border>
+            </DataTemplate>
+          </ItemsControl.ItemTemplate>
+        </ItemsControl>
+      </StackPanel>
+    </ScrollViewer>
+    <Button Name="Confirm" Classes="b2" Grid.Row="4" Content="Confirm" BorderThickness="0,1,0,0"/>
+    <Button Name="Cancel" Classes="b2" Grid.Row="5" Content="Cancel" BorderThickness="0,1,0,1"/>
+  </Grid>
+</Window>
