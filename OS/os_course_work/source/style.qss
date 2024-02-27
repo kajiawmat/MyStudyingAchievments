@@ -1,0 +1,10 @@
+*{
+    background:#FFFFFF;
+}
+QPushButton{
+    background-color: #BDCCE3;
+    border: 10px;
+}
+QListView{
+    background: #BDCCE3;
+}
