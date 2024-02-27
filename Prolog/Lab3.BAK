@@ -1,0 +1,83 @@
+goal:-
+ writeln("Введите массив:"),
+ read(L),
+ length(L,N),
+ square_every_three(L,1,L_res),
+ write("L_res = "),
+ write(L_res).
+ 
+square_every_three([],_,[]):-!.
+
+square_every_three([X|T],N,[X2|L_res]):-
+ N=:=3,!,
+ N1=1,
+ X2 is (X*X),
+ square_every_three(T,N1,L_res).
+ 
+square_every_three([X|T],N,[X|L_res]):-
+ N1 is (N+1),!,
+ square_every_three(T,N1,L_res).
+ 
+
+%
+goal4:-
+ writeln("Введите 1-ый список "),
+ read(L1),
+ writeln("Введите 2-ой список"),
+ read(L2),
+ connection(L1,L2,L),
+ myunion(L,L_res),
+ writeln("Результат объединения"),
+ write(L_res).
+
+connection([],L,L):-!.
+
+connection([X|T],L2,[X|T2]):-
+ connection(T,L2,T2).
+
+/*mydelete([],_,[]):-!.
+mydelete([X|T],X,T2):-mydelete(T,X,T2),!.
+mydelete([Y|T],X,[Y|T1]):-mydelete(T,X,T1).      */
+
+myunion([],[]).
+ 
+myunion([X|T],[X|L]):-
+ delete(T,X,L2),
+ %mydelete(T,X,L2)
+ myunion(L2,L).
+ 
+ 
+goal2:-
+ writeln("Введите массив:"),
+ read(L),
+ uniq(L,L_res),
+ writeln("Массив без повторений"),
+ writeln(L_res).
+ 
+mydelete([],_,[]):-!.
+mydelete([X|T],X,T2):-mydelete(T,X,T2),!.
+mydelete([Y|T],X,[Y|T1]):-mydelete(T,X,T1).
+
+uniq([],[]).
+uniq([X|T],[X|L]):-
+ mydelete(T,X,L2),
+ uniq(L2,L).
+ 
+ 
+goal_15:-
+ writeln("Введите массив:"),
+ read(L),
+ no_rep_in_row(L,L_res),
+ writeln("Массив без подряд идущих:"),
+ writeln(L_res).
+
+no_rep_in_row([],[]):-!.
+no_rep_in_row([X|[]],[X|[]]):-!.
+no_rep_in_row([X|T],L):-
+ no_rep_in_row(T,L2),
+ L2=[X2|_],
+ (X2\==X ->
+  L=[X|L2];
+  L=L2
+ ).
+

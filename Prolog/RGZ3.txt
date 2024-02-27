@@ -1,0 +1,16 @@
+:- dynamic flight/4.
+
+flight(1, peterburg, 18, 653).
+flight(2, novosibirsk, 13, 1).
+flight(3, anapa, 16, 1).
+flight(4, sochi, 7, 3).
+flight(5, moscow, 5, 10).
+flight(6, moscow, 15, 600).
+flight(7, peterburg, 3, 300).
+flight(8, peterburg, 24, 100).
+flight(9, peterburg, 1, 0).
+flight(10, novosibirsk, 12, 1).
+flight(11, moscow, 10, 1000).
+flight(12, novosibirsk, 5, 1200).
+flight(13, peterburg, 23, 100).
+

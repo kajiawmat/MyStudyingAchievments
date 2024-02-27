@@ -1,0 +1,6 @@
+:- dynamic employee/4.
+
+employee("Nikolaev2", "Aleksey2", "Prog", 150).
+employee("Nikolaev", "Aleksey", "Math", 201).
+employee("Sitnikov", "Vladimir", "Student", 1).
+
